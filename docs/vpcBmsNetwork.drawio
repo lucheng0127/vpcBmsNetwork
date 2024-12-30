@@ -1,87 +1,93 @@
 <mxfile host="65bd71144e">
-    <diagram id="dZq-LVkajySQgP49LZSv" name="网络拓扑">
-        <mxGraphModel dx="978" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <diagram id="M7PpP6BD2F07Ey58_vNF" name="网络可达方案">
+        <mxGraphModel dx="663" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="wxa6Qply7N931QcgyE4K-18" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" parent="1" vertex="1">
-                    <mxGeometry y="70" width="680" height="500" as="geometry"/>
+                <mxCell id="rd8whjbNiPv1QAMzb9jZ-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="190" width="1040" height="640" as="geometry"/>
                 </mxCell>
-                <mxCell id="wxa6Qply7N931QcgyE4K-6" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="wxa6Qply7N931QcgyE4K-2" target="wxa6Qply7N931QcgyE4K-5" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="wxa6Qply7N931QcgyE4K-2" value="Firewall" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/firewall.svg;" parent="1" vertex="1">
-                    <mxGeometry x="120" y="250" width="30.5" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="wxa6Qply7N931QcgyE4K-7" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="wxa6Qply7N931QcgyE4K-3" target="wxa6Qply7N931QcgyE4K-5" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="wxa6Qply7N931QcgyE4K-19" value="" style="edgeStyle=none;html=1;fontColor=#000000;endArrow=none;endFill=0;" parent="1" source="wxa6Qply7N931QcgyE4K-3" target="wxa6Qply7N931QcgyE4K-14" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="wxa6Qply7N931QcgyE4K-3" value="Firewall" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/firewall.svg;" parent="1" vertex="1">
-                    <mxGeometry x="490" y="240" width="30.5" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="wxa6Qply7N931QcgyE4K-4" value="VPN Server" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/VPN_Gateway.svg;" parent="1" vertex="1">
-                    <mxGeometry x="414" y="111.5" width="45" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="wxa6Qply7N931QcgyE4K-5" value="Internet" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/internet_cloud.svg;" parent="1" vertex="1">
-                    <mxGeometry x="280" y="130" width="50" height="31.5" as="geometry"/>
-                </mxCell>
-                <mxCell id="wxa6Qply7N931QcgyE4K-13" value="" style="edgeStyle=none;html=1;fontColor=#FFFFFF;endArrow=none;endFill=0;" parent="1" source="wxa6Qply7N931QcgyE4K-8" target="wxa6Qply7N931QcgyE4K-2" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="wpC-bVRLTyJjd0ClHXsw-7" value="" style="edgeStyle=none;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="wxa6Qply7N931QcgyE4K-8" target="wxa6Qply7N931QcgyE4K-2">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="wpC-bVRLTyJjd0ClHXsw-9" value="" style="edgeStyle=none;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="wxa6Qply7N931QcgyE4K-8">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="414" y="151.5" as="targetPoint"/>
+                <mxCell id="LBHG5jEyvhu28l5GV2z5-1" value="" style="endArrow=none;html=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="80" y="240" as="sourcePoint"/>
+                        <mxPoint x="520" y="240" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wxa6Qply7N931QcgyE4K-8" value="vpc nat gateway" style="sketch=0;outlineConnect=0;fontColor=#000000;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.customer_gateway;labelBackgroundColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="60" y="360" width="60" height="60" as="geometry"/>
+                <mxCell id="LBHG5jEyvhu28l5GV2z5-2" value="eip network&lt;br&gt;10.66.0.0/16" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="210" width="100" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="wpC-bVRLTyJjd0ClHXsw-4" value="" style="edgeStyle=none;html=1;endArrow=none;endFill=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="wxa6Qply7N931QcgyE4K-11" target="wxa6Qply7N931QcgyE4K-8">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="wxa6Qply7N931QcgyE4K-11" value="vpc1" style="sketch=0;outlineConnect=0;fontColor=#000000;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.virtual_private_cloud;labelBackgroundColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="10" y="460" width="70" height="70" as="geometry"/>
-                </mxCell>
-                <mxCell id="wxa6Qply7N931QcgyE4K-15" value="" style="edgeStyle=none;html=1;fontColor=#FFFFFF;endArrow=none;endFill=0;" parent="1" source="wxa6Qply7N931QcgyE4K-14" target="wxa6Qply7N931QcgyE4K-3" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="wpC-bVRLTyJjd0ClHXsw-11" value="" style="edgeStyle=none;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="wxa6Qply7N931QcgyE4K-14">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="460" y="151.5" as="targetPoint"/>
+                <mxCell id="LBHG5jEyvhu28l5GV2z5-3" value="" style="endArrow=none;html=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="600" y="239" as="sourcePoint"/>
+                        <mxPoint x="1080" y="239" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wxa6Qply7N931QcgyE4K-14" value="bms vpc gateway" style="sketch=0;outlineConnect=0;fontColor=#000000;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.customer_gateway;labelBackgroundColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="588" y="340" width="60" height="60" as="geometry"/>
+                <mxCell id="LBHG5jEyvhu28l5GV2z5-4" value="bms network&lt;br&gt;172.16.0.0/16" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="980" y="210" width="100" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="wxa6Qply7N931QcgyE4K-17" value="" style="edgeStyle=none;html=1;fontColor=#FFFFFF;endArrow=none;endFill=0;fillColor=#f0a30a;strokeColor=#BD7000;" parent="1" source="wxa6Qply7N931QcgyE4K-16" target="wxa6Qply7N931QcgyE4K-14" edge="1">
+                <mxCell id="2" value="router&lt;br&gt;10.66.0.1/16&lt;br&gt;172.16.0.1/16" style="sketch=0;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0],[0.145,0.145,0],[0.8555,0.145,0],[0.855,0.8555,0],[0.145,0.855,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=router;fillColor=#FAFAFA;strokeColor=#005073;" parent="1" vertex="1">
+                    <mxGeometry x="530" y="210" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;" parent="1" source="3" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="760" y="240" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="bms vpc1&lt;br&gt;172.16.0.11/16&lt;br&gt;&lt;br&gt;default via 172.16.0.1&lt;br&gt;&lt;div&gt;192.168.100.0/24 via 172.16.0.254&amp;nbsp;&lt;/div&gt;&lt;div&gt;192.168.200.0/24 via 172.16.0.254&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="660" y="280" width="200" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="4" target="LBHG5jEyvhu28l5GV2z5-4" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="wxa6Qply7N931QcgyE4K-16" value="baremetal server&lt;br&gt;vpc2" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/generic_server.svg;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="620" y="470" width="28.000000000000004" height="50" as="geometry"/>
+                <mxCell id="4" value="bms vpc2&lt;br&gt;172.16.0.12/16&lt;br&gt;&lt;br&gt;default via 172.16.0.1&lt;br&gt;&lt;div&gt;192.168.100.0/24 via 172.16.0.254&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="880" y="280" width="200" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="wpC-bVRLTyJjd0ClHXsw-3" value="" style="edgeStyle=none;html=1;endArrow=none;endFill=0;fillColor=#f0a30a;strokeColor=#BD7000;" edge="1" parent="1" source="wpC-bVRLTyJjd0ClHXsw-1" target="wxa6Qply7N931QcgyE4K-8">
+                <mxCell id="8" style="edgeStyle=none;html=1;exitX=0.04;exitY=0.007;exitDx=0;exitDy=0;endArrow=none;endFill=0;exitPerimeter=0;" parent="1" source="7" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="618" y="240" as="targetPoint"/>
+                        <mxPoint x="613.9200000000001" y="400" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="bms vpc gateway&lt;br&gt;172.16.0.254/16&lt;br&gt;&lt;br&gt;default via 172.16.0.1&lt;br&gt;&lt;br&gt;-----------------------&lt;br&gt;ip l add ipip0 type ipip local&amp;nbsp;172.16.0.254&lt;br&gt;ip l set ipip0 up&lt;br&gt;&lt;br&gt;&lt;div&gt;ipset create vpc1 hash:ip&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;ipset add vpc1 172.16.0.11&lt;/div&gt;&lt;div&gt;ipset create vpc2 hash:ip&lt;/div&gt;&lt;div&gt;ipset add vpc2 172.16.0.12&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;iptables -t mangle -A&amp;nbsp;PREROUTING -m set --match-set vpc1 src -j MARK --set&lt;span style=&quot;background-color: initial;&quot;&gt;-mark 100&lt;/span&gt;&lt;/div&gt;&lt;div&gt;iptables -t mangle -A&amp;nbsp;PREROUTING -m set --match-set vpc2 src -j MARK --set&lt;span style=&quot;background-color: initial;&quot;&gt;-mark 200&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ip rule add fwmark 100 lookup 100&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ip rule add fwmark 200 lookup 200&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ip r add default via 172.16.0.1 table 100&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ip r add default via 172.16.0.1 table 200&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ip r add 192.168.100.0/24 via 10.66.0.11 dev ipip0 onlink table 100&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;ip r add 192.168.200.0/24 via 10.66.&lt;span style=&quot;background-color: initial;&quot;&gt;0.11 dev ipip0 onlink table 100&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;div&gt;ip r add 192.168.100.0/24 via 10.66.&lt;span style=&quot;background-color: initial;&quot;&gt;0.22 dev ipip0 onlink table 200&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="400" width="480" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;" parent="1" source="9" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="420" y="240" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="vpc2 nat gateway&lt;br&gt;10.66.0.22/16&lt;br&gt;192.168.100.1/24&lt;br&gt;&lt;br&gt;default via 10.66.0.1&lt;br&gt;&lt;br&gt;iptables -t nat&amp;nbsp;-A POSTROUTING -s 192.168.100.0/24 -j MASQUERADE&lt;br&gt;&lt;br&gt;--------------------------&lt;br&gt;ip l add ipip0 type ipip local 10.66.0.22&lt;br&gt;ip l set ipip0 up&lt;br&gt;ip a add 192.168.100.0/32 dev ipip0&lt;br&gt;(只有bms vpc gateway可路由直达，其他访问bms的流量都走ipip0，可以实现bms和vpc的网络隔离)&lt;br&gt;ip r add 172.16.0.254/32 via 10.66.0.1&lt;br&gt;ip r add 172.16.0.0/16 via 172.16.0.254 dev ipip0 onlink" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="280" width="200" height="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="10" target="LBHG5jEyvhu28l5GV2z5-2" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="wpC-bVRLTyJjd0ClHXsw-1" value="vpc2" style="sketch=0;outlineConnect=0;fontColor=#000000;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.virtual_private_cloud;labelBackgroundColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="130" y="460" width="70" height="70" as="geometry"/>
+                <mxCell id="10" value="vpc1 nat gateway&lt;br&gt;10.66.0.11/16&lt;br&gt;192.168.100.1/24&lt;br&gt;192.168.200.1/24&lt;br&gt;&lt;br&gt;default via 10.66.0.1&lt;br&gt;&lt;br&gt;iptables -t nat&amp;nbsp;-A POSTROUTING -s 192.168.100.0/24 -j MASQUERADE&lt;br&gt;iptables -t nat -A POSTROUTING -s 192.168.200.0/24 -j MASQUERADE&lt;br&gt;&lt;br&gt;--------------------------&lt;br&gt;ip l add ipip0 type ipip local 10.66.0.11&lt;br&gt;ip l set ipip0 up&lt;br&gt;ip a add 192.168.100.0/32 dev ipip0&lt;br&gt;ip a add 192.168.200.0/32 dev ipip0&lt;br&gt;(只添加访问vpc内bms路由，其他流量走原始路由，无法实现bms访问隔离)&lt;br&gt;ip r add 172.16.0.11/32 via 172.16.0.254 dev ipip0 onlink" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="280" width="200" height="360" as="geometry"/>
                 </mxCell>
-                <mxCell id="wpC-bVRLTyJjd0ClHXsw-6" value="" style="edgeStyle=none;html=1;endArrow=none;endFill=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="wpC-bVRLTyJjd0ClHXsw-5" target="wxa6Qply7N931QcgyE4K-14">
+                <mxCell id="15" style="edgeStyle=none;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.175;entryY=1.012;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="13" target="10">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="wpC-bVRLTyJjd0ClHXsw-5" value="baremetal server&lt;br&gt;vpc1" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/generic_server.svg;fontColor=#000000;" vertex="1" parent="1">
-                    <mxGeometry x="492.5" y="470" width="28.000000000000004" height="50" as="geometry"/>
+                <mxCell id="13" value="vpc1 pod1&lt;br&gt;192.168.100.2/24&lt;br&gt;&lt;br&gt;default via 192.168.100.1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="670" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.83;entryY=1.018;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="14" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="vpc1 pod2&lt;br&gt;192.168.200.2/24&lt;br&gt;&lt;br&gt;default via 192.168.200.1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="755" width="140" height="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.465;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="17" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="vpc2 pod1&lt;br&gt;192.168.100.2/24&lt;br&gt;&lt;br&gt;default via 192.168.100.1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="344" y="690" width="140" height="70" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="8-gHBJNXY116IcpQowIu" name="裸金属和vpc网络互联方案">
-        <mxGraphModel dx="978" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="663" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -129,7 +135,7 @@
                 <mxCell id="3rztDwTV78hEcu9ESxNu-20" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="3rztDwTV78hEcu9ESxNu-13" target="3rztDwTV78hEcu9ESxNu-12" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="3rztDwTV78hEcu9ESxNu-13" value="bmsGw&lt;br&gt;&lt;br&gt;vpn network 10.66.0.200/24&lt;br&gt;bms vpc net gw&amp;nbsp;172.16.0.254/24&lt;br&gt;&lt;br&gt;ip l add ipip0 type ipip local 10.66.0.200&lt;br&gt;&lt;div&gt;ip a add 172.16.0.0/32 dev ipip0&lt;/div&gt;&lt;div&gt;ip l set ipip0 up&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ipset create vpc1 hash:ip&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;ipset add vpc1 172.16.0.11&lt;/div&gt;&lt;div&gt;ipset create vpc2 hash:ip&lt;/div&gt;&lt;div&gt;ipset add vpc2 172.16.0.12&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;iptables -t mangle -A&amp;nbsp;PREROUTING -m set --match-set vpc1 src -j MARK --set&lt;span style=&quot;background-color: initial;&quot;&gt;-mark 100&lt;/span&gt;&lt;/div&gt;&lt;div&gt;iptables -t mangle -A&amp;nbsp;PREROUTING -m set --match-set vpc2 src -j MARK --set&lt;span style=&quot;background-color: initial;&quot;&gt;-mark 200&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ip rule add fwmark 100 lookup 100&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ip rule add fwmark 200 lookup 200&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;div&gt;ip r add 192.168.100.0/24 via 10.66.0.1 dev ipip0 onlink table 100&lt;/div&gt;&lt;div&gt;ip r add 192.168.200.0/24 via 10.66.0.1 dev ipip0 onlink table 100&lt;/div&gt;&lt;div&gt;ip r add 172.16.0.0/24 via 172.16.0.254 table 100&lt;br&gt;&lt;/div&gt;&lt;div&gt;ip r add 192.168.100.0/24 via 10.66.0.2 dev ipip0 onlink table 200&lt;/div&gt;&lt;div&gt;ip r add 172.16.0.0/24 via 172.16.0.254 table 200&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;**需要加上这两条路由，否则ipip0收到数据包后无法正常转发内层报文**&lt;/div&gt;&lt;div&gt;(也可以通过添加ecmp指定nexthop，删除时就可以根据nexthop删除不用的路由)&lt;/div&gt;&lt;div&gt;&lt;div&gt;ip r add 192.168.100.0/24 dev ipip0&lt;/div&gt;&lt;div&gt;ip r add 192.168.200.0/24 dev ipip0&lt;/div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+                <mxCell id="3rztDwTV78hEcu9ESxNu-13" value="bmsGw&lt;br&gt;&lt;br&gt;vpn network 10.66.0.200/24&lt;br&gt;bms vpc net gw&amp;nbsp;172.16.0.254/24&lt;br&gt;&lt;br&gt;ip l add ipip0 type ipip local 10.66.0.200&lt;br&gt;&lt;div&gt;ip a add 172.16.0.0/32 dev ipip0&lt;/div&gt;&lt;div&gt;ip l set ipip0 up&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ipset create vpc1 hash:ip&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;ipset add vpc1 172.16.0.11&lt;/div&gt;&lt;div&gt;ipset create vpc2 hash:ip&lt;/div&gt;&lt;div&gt;ipset add vpc2 172.16.0.12&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;iptables -t mangle -A&amp;nbsp;PREROUTING -m set --match-set vpc1 src -j MARK --set&lt;span style=&quot;background-color: initial;&quot;&gt;-mark 100&lt;/span&gt;&lt;/div&gt;&lt;div&gt;iptables -t mangle -A&amp;nbsp;PREROUTING -m set --match-set vpc2 src -j MARK --set&lt;span style=&quot;background-color: initial;&quot;&gt;-mark 200&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ip rule add fwmark 100 lookup 100&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ip rule add fwmark 200 lookup 200&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;div&gt;ip r add 192.168.100.0/24 via 10.66.0.1 dev ipip0 onlink table 100&lt;/div&gt;&lt;div&gt;ip r add 192.168.200.0/24 via 10.66.0.1 dev ipip0 onlink table 100&lt;/div&gt;&lt;div&gt;ip r add 172.16.0.0/24 via 172.16.0.254 table 100&lt;br&gt;&lt;/div&gt;&lt;div&gt;ip r add 192.168.100.0/24 via 10.66.0.2 dev ipip0 onlink table 200&lt;/div&gt;&lt;div&gt;ip r add 172.16.0.0/24 via 172.16.0.254 table 200&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;**如果没有默认路由，需要加上这两条路由，否则ipip0收到数据包后无法正常转发内层报文**&lt;/div&gt;&lt;div&gt;ip r add default via 172.16.0.1&lt;/div&gt;&lt;div&gt;--------------------or-------------------------&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ip r add 192.168.100.0/24 dev ipip0&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;ip r add 192.168.200.0/24 dev ipip0&amp;nbsp;&lt;/div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
                     <mxGeometry x="1010" y="260" width="500" height="450" as="geometry"/>
                 </mxCell>
                 <mxCell id="3rztDwTV78hEcu9ESxNu-16" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;" parent="1" source="3rztDwTV78hEcu9ESxNu-14" edge="1">
@@ -147,6 +153,87 @@
                 </mxCell>
                 <mxCell id="3rztDwTV78hEcu9ESxNu-15" value="bmsvpc2&lt;br&gt;&lt;br&gt;172.16.0.12/24&lt;br&gt;&lt;div&gt;192.168.100.0/24 via 172.16.0.254 dev&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
                     <mxGeometry x="1010" y="850" width="240" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="dZq-LVkajySQgP49LZSv" name="网络拓扑">
+        <mxGraphModel dx="663" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="wxa6Qply7N931QcgyE4K-18" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry y="70" width="680" height="500" as="geometry"/>
+                </mxCell>
+                <mxCell id="wxa6Qply7N931QcgyE4K-6" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="wxa6Qply7N931QcgyE4K-2" target="wxa6Qply7N931QcgyE4K-5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="wxa6Qply7N931QcgyE4K-2" value="Firewall" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/firewall.svg;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="250" width="30.5" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="wxa6Qply7N931QcgyE4K-7" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="wxa6Qply7N931QcgyE4K-3" target="wxa6Qply7N931QcgyE4K-5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="wxa6Qply7N931QcgyE4K-19" value="" style="edgeStyle=none;html=1;fontColor=#000000;endArrow=none;endFill=0;" parent="1" source="wxa6Qply7N931QcgyE4K-3" target="wxa6Qply7N931QcgyE4K-14" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="wxa6Qply7N931QcgyE4K-3" value="Firewall" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/firewall.svg;" parent="1" vertex="1">
+                    <mxGeometry x="490" y="240" width="30.5" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="wxa6Qply7N931QcgyE4K-4" value="VPN Server" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/VPN_Gateway.svg;" parent="1" vertex="1">
+                    <mxGeometry x="414" y="111.5" width="45" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="wxa6Qply7N931QcgyE4K-5" value="Internet" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/internet_cloud.svg;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="130" width="50" height="31.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="wxa6Qply7N931QcgyE4K-13" value="" style="edgeStyle=none;html=1;fontColor=#FFFFFF;endArrow=none;endFill=0;" parent="1" source="wxa6Qply7N931QcgyE4K-8" target="wxa6Qply7N931QcgyE4K-2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="wpC-bVRLTyJjd0ClHXsw-7" value="" style="edgeStyle=none;html=1;endArrow=none;endFill=0;" parent="1" source="wxa6Qply7N931QcgyE4K-8" target="wxa6Qply7N931QcgyE4K-2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="wpC-bVRLTyJjd0ClHXsw-9" value="" style="edgeStyle=none;html=1;endArrow=none;endFill=0;dashed=1;" parent="1" source="wxa6Qply7N931QcgyE4K-8" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="414" y="151.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="wxa6Qply7N931QcgyE4K-8" value="vpc nat gateway" style="sketch=0;outlineConnect=0;fontColor=#000000;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.customer_gateway;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="360" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="wpC-bVRLTyJjd0ClHXsw-4" value="" style="edgeStyle=none;html=1;endArrow=none;endFill=0;fillColor=#0050ef;strokeColor=#001DBC;" parent="1" source="wxa6Qply7N931QcgyE4K-11" target="wxa6Qply7N931QcgyE4K-8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="wxa6Qply7N931QcgyE4K-11" value="vpc1" style="sketch=0;outlineConnect=0;fontColor=#000000;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.virtual_private_cloud;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="460" width="70" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="wxa6Qply7N931QcgyE4K-15" value="" style="edgeStyle=none;html=1;fontColor=#FFFFFF;endArrow=none;endFill=0;" parent="1" source="wxa6Qply7N931QcgyE4K-14" target="wxa6Qply7N931QcgyE4K-3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="wpC-bVRLTyJjd0ClHXsw-11" value="" style="edgeStyle=none;html=1;endArrow=none;endFill=0;dashed=1;" parent="1" source="wxa6Qply7N931QcgyE4K-14" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="460" y="151.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="wxa6Qply7N931QcgyE4K-14" value="bms vpc gateway" style="sketch=0;outlineConnect=0;fontColor=#000000;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.customer_gateway;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="588" y="340" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="wxa6Qply7N931QcgyE4K-17" value="" style="edgeStyle=none;html=1;fontColor=#FFFFFF;endArrow=none;endFill=0;fillColor=#f0a30a;strokeColor=#BD7000;" parent="1" source="wxa6Qply7N931QcgyE4K-16" target="wxa6Qply7N931QcgyE4K-14" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="wxa6Qply7N931QcgyE4K-16" value="baremetal server&lt;br&gt;vpc2" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/generic_server.svg;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="620" y="470" width="28.000000000000004" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="wpC-bVRLTyJjd0ClHXsw-3" value="" style="edgeStyle=none;html=1;endArrow=none;endFill=0;fillColor=#f0a30a;strokeColor=#BD7000;" parent="1" source="wpC-bVRLTyJjd0ClHXsw-1" target="wxa6Qply7N931QcgyE4K-8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="wpC-bVRLTyJjd0ClHXsw-1" value="vpc2" style="sketch=0;outlineConnect=0;fontColor=#000000;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.virtual_private_cloud;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="460" width="70" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="wpC-bVRLTyJjd0ClHXsw-6" value="" style="edgeStyle=none;html=1;endArrow=none;endFill=0;fillColor=#0050ef;strokeColor=#001DBC;" parent="1" source="wpC-bVRLTyJjd0ClHXsw-5" target="wxa6Qply7N931QcgyE4K-14" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="wpC-bVRLTyJjd0ClHXsw-5" value="baremetal server&lt;br&gt;vpc1" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/generic_server.svg;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="492.5" y="470" width="28.000000000000004" height="50" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

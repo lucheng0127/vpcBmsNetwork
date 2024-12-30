@@ -27,3 +27,6 @@ tap实现的VPN：[virtuallan](https://github.com/lucheng0127/virtuallan)
 
 ## 附:
 测试环境搭建脚本见script目录[setup_topo.sh](./script/setup_topo.sh)
+
+### 如果vpc网络和裸金属网络路由可达
+[裸金属VPC网络路由可达时网络方案](./docs/vpc和bms网络可达方案.png)
